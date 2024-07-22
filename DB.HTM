@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background: #007bff;
+            color: white;
+            text-align: center;
+            padding: 50px 10px;
+        }
+
+        header img {
+            border: 5px solid white;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        section {
+            padding: 30px 10px;
+        }
+
+        #about, #contact {
+            background: #f8f9fa;
+        }
+
+        #portfolio .project {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        #portfolio .project .description {
+            padding: 10px;
+        }
+
+        footer {
+            background: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 30px 10px;
+            }
+
+            section {
+                padding: 20px 10px;
+            }
+
+            #portfolio .project {
+                margin-bottom: 15px;
+            }
+
+            #portfolio .project .description {
+                padding: 5px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            header {
+                padding: 20px 10px;
+            }
+
+            header img {
+                width: 100px;
+                height: 100px;
+            }
+
+            section {
+                padding: 15px 10px;
+            }
+
+            #portfolio .project {
+                margin-bottom: 10px;
+            }
+
+            #portfolio .project .description {
+                padding: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="profile.jpeg" alt="Profile Picture">
+            <h1>Jatin Chauhan</h1>
+            <p class="lead">Graduate Analyst @Deutsche Bank India</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="text-center">About Me</h2>
+            <p class="text-center">Graduated from IIT Kanpur in Electrical Engineering Department. Skills include Data
+                Structures and Algorithms & Machine Learning Concepts</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="text-center">Portfolio</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="project">
+                        <div class="description">
+                            <h5>Project 1</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quas!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project">
+                        <div class="description">
+                            <h5>Project 2</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, alias!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project">
+                        <div class="description">
+                            <h5>Project 3</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, architecto.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Jatin Chauhan <br> +91 897935 2807 <br> jatin.chauhan@db.com </p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
